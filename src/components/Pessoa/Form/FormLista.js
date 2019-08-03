@@ -3,7 +3,6 @@ import { Grommet } from '@bit/grommet.grommet.grommet';
 import { grommet } from '@bit/grommet.grommet.themes';
 import { Box } from '@bit/grommet.grommet.box';
 import { DataTable } from '@bit/grommet.grommet.data-table';
-import { Meter } from '@bit/grommet.grommet.meter';
 import { Text } from '@bit/grommet.grommet.text';
 
 const DATA = [
@@ -57,7 +56,7 @@ const columns = [
   ];
 
 
-  const CadastroPessoaTabela = () => (
+  const FormLista = () => (
     <Grommet theme={grommet}>
       <Box align='center' pad='large'>
         <DataTable
@@ -73,4 +72,4 @@ const columns = [
     </Grommet>
   );
 
-export default CadastroPessoaTabela;
+export default FormLista;

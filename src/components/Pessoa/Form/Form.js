@@ -1,22 +1,23 @@
 import React from 'react';
-import './CadastroPessoa.css';
-import CadastroPessoaFormulario from './FormCadastro.js/index.js';
-import CadastroPessoaTabela from './FormLista';
+import './Form.css';
+import PessoaFormCadastro from './FormCadastro.js'
+import PessoaFormLista from './FormLista.js'
 
 
-function CadastroPessoa() {
-  return (
+
+const Form = () => 
+(
     <div className="CadastroPessoa">
       <header className="CadastroPessoa-header">
       </header>
       <div className="CadastroPessoaFormulario">
-        <CadastroPessoaFormulario />
+        <PessoaFormCadastro />
       </div>
       <div className="CadastroPessoaFormulario">
-        <CadastroPessoaTabela />
+        <PessoaFormLista />
       </div>                    
     </div>
-  );
-}
+);
 
-export default CadastroPessoa;
+
+export default Form;

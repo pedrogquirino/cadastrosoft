@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import CadastroPessoa from './components/Cadastro/CadastroPessoa.js';
+import FormPessoaCadastro from './components/Pessoa/Form/Form.js';
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
       </header>
       <div className="App-content">
-        <CadastroPessoa />
+        <FormPessoaCadastro />
       </div>
     </div>
   );
