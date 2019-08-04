@@ -18,7 +18,7 @@ const FormCadastro = () =>
 
     <Form.Group controlId="formGridEmail">
     <Form.Label>Email</Form.Label>
-    <Form.Control placeholder="1234 Main St" />
+    <Form.Control placeholder="Digite seu endereço de email" />
     </Form.Group>
     <Form.Row>
     <Form.Group as={Col} controlId="formGridNaturalidade">
@@ -47,8 +47,8 @@ const FormCadastro = () =>
     </Form.Group>
     </Form.Row>
 
-    <Button variant="primary" type="submit">
-    Gravar
+    <Button variant="primary" type="submit" >
+        Gravar
     </Button>
     </Form>
 )

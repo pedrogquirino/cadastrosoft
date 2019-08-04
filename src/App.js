@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import FormPessoaCadastro from './components/Pessoa/Form/Form.js';
+import Root from './screens/Root'
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
       </header>
       <div className="App-content">
-        <FormPessoaCadastro />
+        <Root />
       </div>
     </div>
   );

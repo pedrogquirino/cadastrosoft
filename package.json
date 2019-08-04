@@ -13,17 +13,18 @@
     "@bit/react-bootstrap.react-bootstrap.col": "^1.0.0",
     "@bit/react-bootstrap.react-bootstrap.form": "^1.0.0",
     "@bit/react-bootstrap.react-bootstrap.form-check": "file:./components/form-check",
+    "@bit/react-bootstrap.react-bootstrap.form-group": "file:./components/form-group",
     "@bit/react-bootstrap.react-bootstrap.internal.style-links": "^1.0.0",
     "react": "^16.8.6",
     "react-bootstrap-date-picker": "^5.1.0",
     "react-dom": "^16.8.6",
     "react-is": "^16.8.6",
     "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
     "redux": "^4.0.4",
     "redux-form": "^8.2.5",
-    "styled-components": "^5.0.0-alpha.2",
-    "@bit/react-bootstrap.react-bootstrap.form-group": "file:./components/form-group"
+    "styled-components": "^5.0.0-alpha.2"
   },
   "scripts": {
     "start": "react-scripts start",

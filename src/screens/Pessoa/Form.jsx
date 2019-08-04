@@ -1,7 +1,7 @@
 import React from 'react';
 import './Form.css';
-import PessoaFormCadastro from './FormCadastro.js'
-import PessoaFormLista from './FormLista.js'
+import PessoaFormCadastro from '../../components/Pessoa/Form/FormCadastro'
+import PessoaFormLista from '../../components/Pessoa/Form/FormLista'
 
 
 
