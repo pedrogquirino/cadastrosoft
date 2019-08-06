@@ -10,6 +10,7 @@
     "@bit/grommet.grommet.text": "^2.6.5",
     "@bit/grommet.grommet.themes": "^2.6.5",
     "@bit/react-bootstrap.react-bootstrap.button": "^1.0.0",
+    "@bit/react-bootstrap.react-bootstrap.card": "^1.0.0",
     "@bit/react-bootstrap.react-bootstrap.col": "^1.0.0",
     "@bit/react-bootstrap.react-bootstrap.form": "^1.0.0",
     "@bit/react-bootstrap.react-bootstrap.form-check": "file:./components/form-check",
@@ -51,5 +52,8 @@
     "env": {},
     "componentsDefaultDirectory": "components/{name}",
     "packageManager": "npm"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.6"
   }
 }

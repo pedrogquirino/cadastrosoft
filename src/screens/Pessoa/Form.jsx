@@ -8,8 +8,6 @@ import PessoaFormLista from '../../components/Pessoa/Form/FormLista'
 const Form = () => 
 (
     <div className="CadastroPessoa">
-      <header className="CadastroPessoa-header">
-      </header>
       <div className="CadastroPessoaFormulario">
         <PessoaFormCadastro />
       </div>
