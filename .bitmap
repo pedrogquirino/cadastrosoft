@@ -18,5 +18,22 @@
         "rootDir": "components/form-check",
         "origin": "IMPORTED"
     },
-    "version": "14.2.2"
+    "react-bootstrap.react-bootstrap/form-group@1.0.0": {
+        "files": [
+            {
+                "name": "FormGroup.js",
+                "relativePath": "src/FormGroup.js",
+                "test": false
+            },
+            {
+                "name": "FormGroupSpec.js",
+                "relativePath": "test/FormGroupSpec.js",
+                "test": true
+            }
+        ],
+        "mainFile": "src/FormGroup.js",
+        "rootDir": "components/form-group",
+        "origin": "IMPORTED"
+    },
+    "version": "14.2.3"
 }
