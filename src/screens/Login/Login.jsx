@@ -10,10 +10,12 @@ import ReactBootstrapStyle from '@bit/react-bootstrap.react-bootstrap.internal.s
 
 function FormLogin()
 {
-  const [login,setLogin] = useState("admin");    
-
-  function validaDados(){
-
+  const [login,setLogin] = useState("");    
+  const [senha,setSenha] = useState("");    
+  
+  function efetuaLogin(){
+    if(login === "admin" & senha === "admin")
+      alert("Acesso liberado")
   }
 
   return <Card className={styles.loginCard}>
@@ -23,20 +25,21 @@ function FormLogin()
         <Form.Group as={Col} >
           <Form.Label size="sm">Login</Form.Label>
           <Form.Control 
-            placeholder="Login"/>        
+            placeholder="Login"
+            onChange={(evt) => { setLogin(evt.target.value) }}/>        
         </Form.Group>
       </Form.Row>
       <Form.Row>
         <Form.Group as={Col} >
           <Form.Label size="sm">Senha</Form.Label>
           <Form.Control 
-            placeholder="Senha" />   
+            placeholder="Senha"
+            onChange={(evt) => { setSenha(evt.target.value) }}/>   
         </Form.Group>
       </Form.Row>
-      <Button variant="primary" type="submit" 
-        onClick={
-          validaDados()
-        }>
+      <Button 
+        variant="primary" 
+        onClick={() => efetuaLogin() } >
         Login
       </Button>
     </Form>

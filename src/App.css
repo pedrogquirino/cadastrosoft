@@ -14,7 +14,7 @@
 }
 
 .App-content{
-  background-color: #282c34;
+  background-color: #FFFFFF;
   min-height: 95vh;
   display: flex;
   flex-direction: column;
@@ -22,5 +22,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
 
+.CadastroPessoaFormulario{
+  width: 85vh;
+  padding: 24px;
 }

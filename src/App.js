@@ -1,18 +1,19 @@
 import React from 'react';
 import './App.css';
-import Root from './screens/Root'
+import Pessoa from './containers/Pessoa.js';
 
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-      </header>
-      <div className="App-content">
-        <Root />
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header"/>        
+        <div className="App-content">
+          <Pessoa/>
+        </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default App;
