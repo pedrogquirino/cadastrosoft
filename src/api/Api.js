@@ -1,4 +1,3 @@
-
 export const getAll = (url,headers) => {
 
     return fetch(url,
@@ -32,14 +31,3 @@ export const create = (url,headers, data) => {
     .then(res => res)    
     .catch(console.log)
 }
-
-
-// const API = () =>{
-
-//     this.getAll()
-
-//     this.create()
-
-// }
-
-// export default API

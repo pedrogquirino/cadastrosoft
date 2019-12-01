@@ -1,6 +1,6 @@
 import React from 'react';
-import CadastroFormulario from './CadastroFormulario.js';
-import CadastroTabela from './CadastroTabela.js';
+import CadastroFormulario from './CadastroFormulario';
+import CadastroTabela from './CadastroTabela';
 
 
 const CadastroPessoa = (props) => {

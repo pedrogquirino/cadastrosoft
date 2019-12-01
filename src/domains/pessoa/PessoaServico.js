@@ -1,15 +1,15 @@
-import * as API from '../api/Api';
+import {getAll, create} from '../../api/Api';
 
 const basePath = 'http://localhost:3001';
-const pathPessoa = '/pessoa'
+const pathPessoa = '/pessoa';
 
 
-export const getAll = () => {    
+export const getAllPessoa = () => {    
     const url = basePath + pathPessoa;
-    return API.getAll(url);    
+    return getAll(url)
 }
 
-export const create = () => {
+export const createPessoa = () => {
 
     const body = 
     {
@@ -19,5 +19,6 @@ export const create = () => {
         "naturalidade": "Campina Grande",
         "dataNascimento": "1983-08-26"    
     }
-    return API.create(basePath + pathPessoa,null, body)
+    
+    return create(basePath + pathPessoa,null, body)
 }

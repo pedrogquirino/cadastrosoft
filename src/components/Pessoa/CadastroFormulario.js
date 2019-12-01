@@ -51,15 +51,6 @@ import {Form, Input, Button, Select, Cascader} from 'antd';
         },
       };
 
-      const prefixSelector = getFieldDecorator('prefix', {
-        initialValue: '86',
-      })(
-        <Select style={{ width: 70 }}>
-          <Option value="86">+86</Option>
-          <Option value="87">+87</Option>
-        </Select>,
-      );
-
       return (
         <Form {...formItemLayout} onSubmit={this.handleSubmit}>
           <Form.Item label="Nome completo" >

@@ -1,14 +1,13 @@
 import React from 'react';
-import CadastroPessoa from '../components/Pessoa/Cadastro.js';
-import useGlobal from '../hooks/store'
-import * as PessoaServico from '../servicos/PessoaServico.js';
-
+import CadastroPessoa from '../components/pessoa/Cadastro';
+import useGlobal from '../helpers/hooks/store'
+import * as PessoaServico from '../domains/pessoa/PessoaServico';
 
   
 
 const getPessoas = () => {
 
-    return PessoaServico.getAll()
+    return PessoaServico.getAllPessoa()
         .then(value => value)
 }
 
